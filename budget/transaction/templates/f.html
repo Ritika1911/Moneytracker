@@ -1,0 +1,41 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <title>Document</title>
+    
+</head>
+<link rel="stylesheet" href="../style/f.css">
+<body class="root">
+    <form class="dlf">
+        <div >
+          <label for="category">category</label>
+          <input type="text" class="form-control" id="category" aria-describedby="category" name="category" placeholder="Enter category">
+          
+        </div>
+        <div >
+          <label for="date">Date</label>
+          <input type="number" class="form-control" id="date" name="date" placeholder="Date">
+        </div>
+        
+        <button type="submit" >Filter</button>
+      </form>
+      <div >
+        <ul>
+          {% for t in queryset %}
+            <li>
+              {{ t.id }}
+              <span>Transaction ID: {{ t.id }}</span>
+
+              <span>Transaction date: {{ t.date }}</span>
+              <span>Amount {{ t.amount }}</span>
+              <span>Category {{ t.category }}</span>
+            </li>
+            <hr />
+          {% endfor %}
+        </ul>
+      </div>
+</body>
+</html>
