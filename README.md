@@ -1,6 +1,9 @@
 # Moneytracker
+Backend functionality using Django
+Django Rest Framework for the API
+React for the front end
+SQLite database
 
-Token authentication using django rest framework
 Models used are:
 1. User profile has the following attributes:
   Username
@@ -25,6 +28,7 @@ Models used are:
   5. User can filter transactions based on date and category.
   6. If user choses to split the amount, all the users who have signed up are displayed.
   7. User can select who owes money and they are associated with the transaction.
+  8. Token authentication using django rest framework
   
   
    
