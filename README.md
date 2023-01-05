@@ -18,13 +18,13 @@ Models used are:
     Users associated with the transaction 
    
   Features:
-  User can create an account and sign in.
-  Profile displays all active transactions.
-  Create, Update, delete transactions
-  Details like ID and category can't be edited. 
-  User can filter transactions based on date and category.
-  If user choses to split the amount, all the users who have signed up are displayed.
-  User can select who owes money and they are associated with the transaction.
+  1. User can create an account and sign in.
+  2. Profile displays all active transactions.
+  3. Create, Update, delete transactions
+  4. Details like ID and category can't be edited. 
+  5. User can filter transactions based on date and category.
+  6. If user choses to split the amount, all the users who have signed up are displayed.
+  7. User can select who owes money and they are associated with the transaction.
   
   
    
